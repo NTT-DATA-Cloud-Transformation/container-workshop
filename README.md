@@ -62,8 +62,11 @@ docker build -t <dockerhub username>/container-workshop:0.1 .
 ```
 
 ### Running Our Container
-demo `docker run workshop` vs `docker run workshop -V` vs `docker run workshop
--m pip list`
+demo `docker run workshop`
+
+vs `docker run workshop -V` 
+
+vs `docker run workshop -m pip list`
 
 
 ### Pushing Image to Docker Hub
